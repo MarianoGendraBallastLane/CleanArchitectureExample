@@ -1,0 +1,9 @@
+version: "1.0"
+services:
+  api:
+    hostname: api
+    image: msgwebapi:dev
+    ports:
+        - "8080:80"  
+
+  

@@ -1,0 +1,21 @@
+
+STORY DESCRIPTION:
+
+As a user, I want to have a web application that allows me to manage my list of products. 
+I want to be able to create, read, update, and delete products through API endpoints using .NET C#
+Additionally, I want to be able to create a user account and securely log in to the application, 
+and I want the user information to be stored in a relational database.
+This will help me to keep track of my products.
+
+ACCEPTANCE CRITERIA
+
+The application should include a relational database with at least one table to store data for the application.
+The database table should have a unique identifier (primary key) and at least two other fields.
+The API should be developed using ASP.NET Web API and should have endpoints for CRUD operations.
+Each API endpoint should have appropriate HTTP verbs, parameters, and return values.
+The API should have endpoints for user creation, user login, and authorized and non-authorized endpoints.
+The data access layer should interact with the database and provide the necessary CRUD operations for the API endpoints.
+The business logic layer should include all of the business rules and validation for the application.
+The business logic layer should be independent of the data layer and the API.
+Unit tests should be written for all components of the application, including the data access layer, business logic layer, and API endpoints.
+The unit tests should follow TDD methodologies to ensure that the code is reliable and error-free.
